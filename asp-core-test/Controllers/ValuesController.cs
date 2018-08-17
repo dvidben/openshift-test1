@@ -21,8 +21,10 @@ namespace asp_core_test.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            _logger.LogDebug("api/values called....");
             _logger.LogInformation("api/values called....");
-            return new string[] { "value1", "value2" };
+            _logger.LogError("api/values called....");
+            return new string[] { "value1", "value2", System.Environment.MachineName };
         }
 
         // GET api/values/5
@@ -30,6 +32,8 @@ namespace asp_core_test.Controllers
         public ActionResult<string> Get(int id)
         {
             _logger.LogInformation("api/id called....");
+            _logger.LogDebug("api/id called....");
+            _logger.LogCritical("api/id called....");
             return "value";
         }
 

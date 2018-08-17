@@ -1,0 +1,14 @@
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\bin\Debug\netcoreapp2.1\asp-core-test.deps.json
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\bin\Debug\netcoreapp2.1\asp-core-test.runtimeconfig.json
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\bin\Debug\netcoreapp2.1\asp-core-test.runtimeconfig.dev.json
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\bin\Debug\netcoreapp2.1\asp-core-test.dll
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\bin\Debug\netcoreapp2.1\asp-core-test.pdb
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\obj\Debug\netcoreapp2.1\asp-core-test.csprojAssemblyReference.cache
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\obj\Debug\netcoreapp2.1\asp-core-test.csproj.CoreCompileInputs.cache
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\obj\Debug\netcoreapp2.1\asp-core-test.RazorAssemblyInfo.cache
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\obj\Debug\netcoreapp2.1\asp-core-test.RazorAssemblyInfo.cs
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\obj\Debug\netcoreapp2.1\asp-core-test.AssemblyInfoInputs.cache
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\obj\Debug\netcoreapp2.1\asp-core-test.AssemblyInfo.cs
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\obj\Debug\netcoreapp2.1\asp-core-test.RazorTargetAssemblyInfo.cache
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\obj\Debug\netcoreapp2.1\asp-core-test.dll
+C:\Users\c05870a\Documents\Visual Studio 2017\Projects\asp-core-test\asp-core-test\obj\Debug\netcoreapp2.1\asp-core-test.pdb

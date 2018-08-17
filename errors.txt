@@ -1,0 +1,6 @@
+Using SDK: 2.1.302
+error: DOTNET_STARTUP_PROJECT has no project file
+You can specify the startup project by adding an '.s2i/environment' file to the source repository.
+The source repository contains the following projects:
+- asp-core-test/asp-core-test.csproj
+Update the '.s2i/environment' file to specify the project you want to publish, for example DOTNET_STARTUP_PROJECT=asp-core-test/asp-core-test.csproj.

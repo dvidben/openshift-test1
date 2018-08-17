@@ -22,6 +22,7 @@ namespace asp_core_test
                 .ConfigureLogging((hostingContext, logging) => {
                     logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
                     logging.AddConsole();
+                    logging.AddDebug();
                 })
                 .UseStartup<Startup>();
     }
