@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -24,6 +25,14 @@ namespace asp_core_test.Controllers
             _logger.LogDebug("api/values called....");
             _logger.LogInformation("api/values called....");
             _logger.LogError("api/values called....");
+            for (int i = 0; i < 50000; i++)
+            {
+                for (int j = 0; j < 500; j++)
+                {
+                    Math.Acos(Math.PI / 2);
+                }
+                Thread.Sleep(200);
+            }
             return new string[] { "value1", "value2", System.Environment.MachineName };
         }
 
