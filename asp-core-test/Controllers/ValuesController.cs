@@ -27,10 +27,11 @@ namespace asp_core_test.Controllers
             _logger.LogError("api/values called....");
             for (int i = 0; i < 5000; i++)
             {
-                for (int j = 0; j < 500; j++)
+                for (int j = 0; j < 5000; j++)
                 {
                     Math.Acos(Math.PI / 2);
                 }
+                Thread.Sleep(50);
             }
             return new string[] { "value1", "value2", System.Environment.MachineName };
         }
