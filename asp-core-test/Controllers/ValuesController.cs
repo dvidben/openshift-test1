@@ -27,11 +27,11 @@ namespace asp_core_test.Controllers
             _logger.LogError("api/values called....");
             for (int i = 0; i < 5000; i++)
             {
-                for (int j = 0; j < 5000; j++)
+                for (int j = 0; j < 500; j++)
                 {
                     Math.Acos(Math.PI / 2);
                 }
-                Thread.Sleep(50);
+                Thread.Sleep(5);
             }
             return new string[] { "value1", "value2", System.Environment.MachineName };
         }
@@ -43,6 +43,13 @@ namespace asp_core_test.Controllers
             _logger.LogInformation("api/id called....");
             _logger.LogDebug("api/id called....");
             _logger.LogCritical("api/id called....");
+            for (int i = 0; i < id; i++)
+            {
+                for (int j = 0; j < 50; j++)
+                {
+                    Math.Acos(Math.PI / 2);
+                }
+            }
             return "value";
         }
 
