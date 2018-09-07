@@ -20,20 +20,21 @@ namespace asp_core_test.Controllers
         }
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<string> Get()
         {
             _logger.LogDebug("api/values called....");
             _logger.LogInformation("api/values called....");
             _logger.LogError("api/values called....");
-            for (int i = 0; i < 5000; i++)
-            {
-                for (int j = 0; j < 500; j++)
-                {
-                    Math.Acos(Math.PI / 2);
-                }
-                Thread.Sleep(5);
-            }
-            return new string[] { "value1", "value2", System.Environment.MachineName };
+            /* for (int i = 0; i < 5000; i++)
+             {
+                 for (int j = 0; j < 500; j++)
+                 {
+                     Math.Acos(Math.PI / 2);
+                 }
+                 Thread.Sleep(5);
+             }
+             return new string[] { "value1", "value2", System.Environment.MachineName };*/
+            return $"Hello from {System.Environment.MachineName}";
         }
 
         // GET api/values/5
